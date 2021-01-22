@@ -15,7 +15,7 @@ function kilometerToMeter(value) {
 
 
 /** Budget Calculator */
-function budgetCalculator(watch, mobile, laptop){
+function budgetCalculator(watch, mobile, laptop) {
     var watchPrice = watch * 50;
     var mobilePrice = mobile * 100;
     var laptopPrice = laptop * 500;
@@ -42,11 +42,11 @@ function hotelCost(days) {
 
 
 /** Mega Friend */
-function megaFriend(names){
+function megaFriend(names) {
     var largestName = names[0];
-    for (var i = 0 ; i < names.length; i ++){
+    for (var i = 0; i < names.length; i++) {
         var bigName = names[i];
-        if(bigName.length>largestName.length){
+        if (bigName.length > largestName.length) {
             largestName = bigName;
         }
     }
